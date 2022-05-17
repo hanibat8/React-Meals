@@ -1,0 +1,31 @@
+.meal__item{
+    padding: 1rem;
+    border-bottom: 1px solid rgba(182, 173, 173, 0.421);
+    display: flex;
+    justify-content: space-between;
+}
+
+.meal__item__details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.meal__item__name,
+.meal__item__desc,
+.meal__item__price{
+    margin: 0;
+}
+
+.meal__item__name{
+    font-weight: bolder;
+}
+
+.meal__item__desc{
+    font-style: italic;
+}
+
+.meal__item__price{
+    color: chocolate;
+    font-weight: bold;
+}

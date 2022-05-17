@@ -1,0 +1,82 @@
+.header{
+    background-color: rgb(145, 38, 38);
+    color: #fff;
+    padding: 0 10%;
+    height: 5rem;
+    position: fixed;
+    top: 0;
+    left: 0 ;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+}
+
+.headerBtn{
+    background-color: rgb(88, 22, 22);
+    color: #fff;
+    font-family: inherit;
+    font-size: 100%;
+    border: none;
+    width: 12rem;
+    height: 2.8rem;
+    border-radius: 2rem;
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.headerBtn span:first-of-type{
+    display: flex;
+    align-items: center;
+    margin-right: .7rem;
+}
+
+.header-btn__icon{
+    margin-right: .2rem;
+}
+
+.header-badge{
+    background-color: rgb(145, 38, 38);
+    border-radius: 50%;
+    padding: .1rem .5rem;
+}
+
+.bump{
+    animation: bump 300ms ease-out;
+}
+
+@keyframes bump{
+    0%{
+        transform: scale(1);
+    }
+    10%{
+        transform: scale(0.9);
+    }
+    30%{
+        transform: scale(1.1);
+    }
+    50%{
+        transform: scale(1.15);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.meals__img__container{
+    height: 25rem;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.meals__img{
+    display: block;
+    object-fit: cover;
+    width: 110%;
+    height: 100%;
+    transform:rotateZ(-5deg) translateY(-4rem) translateX(-1rem);
+    z-index: 0;
+}
