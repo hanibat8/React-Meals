@@ -29,7 +29,7 @@ const AvailableMeals=()=>{
   const {sendRequest:fetchMeals,isLoading,error}=useHttp();
   
   useEffect(()=>{
-    fetchMeals('https://react-http-e91f0-default-rtdb.asia-southeast1.firebasedatabase.app/meals.json',transformData);
+    fetchMeals('https://meals-app-4fa25-default-rtdb.firebaseio.com/meals.json',transformData);
   },[fetchMeals])
 
   if(meals.length>0)
