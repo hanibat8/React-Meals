@@ -1,7 +1,7 @@
 import classes from './CarItem.module.css';
 import plus from '../../assets/SVG/plus.svg';
 import minus from '../../assets/SVG/minus.svg';
-import { useContext } from 'react/cjs/react.development';
+import { useContext } from 'react';
 import CartContext from '../../store/cart-context';
 
 const CartItem=(props)=>{
