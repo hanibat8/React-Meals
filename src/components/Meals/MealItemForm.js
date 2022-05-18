@@ -3,7 +3,7 @@ import { useRef } from 'react';
 import classes from './MealItemForm.module.css';
 import plus from '../../assets/SVG/plus.svg';
 import CartContext from '../../store/cart-context';
-import { useContext } from 'react/cjs/react.development';
+import { useContext } from 'react';
 
 const MealItemForm=(props)=>{
     const ctx=useContext(CartContext);
